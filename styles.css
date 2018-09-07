@@ -35,23 +35,29 @@ body {
 
 
 
-.horizontalNav a {
-  background-color: rgba(125, 104, 104, 0.81);
+.horizontalNav li {
+  background-color: rgba(125, 104, 104, 0.65);
   display: block;
   float: left;
   text-align: center;
-  padding-top: 15px;
-  padding-bottom: 15px;
+
   width: 20%;
-  color: white;
-  font-size: 1.2em;
+}
+.horizontalNav li {
   border-right: 1px solid #bbb;
 }
 
-.horizontalNav a:last-child {
+.horizontalNav li:last-child {
   border-right: none;
 }
 
+.horizontalNav a {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  font-size: 1.2em;
+}
 /* Change the link color to #111 (black) on hover */
 .horizontalNav a:hover {
   background-color: #111;
