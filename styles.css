@@ -66,3 +66,15 @@ body {
 .horizontalNav a:active {
   background-color: red;
 }
+
+
+.dropdown li {
+  display: none;
+  width: 100%;
+  border-right: none;
+  z-index: 1;
+}
+li:hover .dropdown li {
+  display: block;
+  border-right: none;
+}
