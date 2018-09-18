@@ -7,9 +7,19 @@ html {
   font-size: 15px;
   background-image: url("background01.jpg");
   background-size: .5%;
+  color: white;
+}
 
+a:link, a:visited {
+  text-decoration: none;
+  font-weight: bold;
+  color: #72607b;
+}
 
-
+a:hover {
+  color: #8b8091;
+  background-color: #b8b88e;
+  font-size: 1.21em;
 }
 
 /* main page */
@@ -31,7 +41,17 @@ body {
 
 }
 
+article {
+  padding: 20px;
+}
 
+article p {
+  padding: 10px;
+}
+
+#calc_element {
+  margin:10px;
+}
 /* Nav menu magic */
 li {
   z-index: 1;
