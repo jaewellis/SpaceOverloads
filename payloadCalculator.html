@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <title>TITLE</title>
+ <link href="reset.css" rel="stylesheet" type="text/css" />
+ <link href="styles.css" rel="stylesheet" type="text/css" />
+ <link href="styles.css" rel="stylesheet" type="text/css" />
+ <script src="modernizer.custom.05819.js"></script>
+ <!-- Load our calculator JavaScript -->
+ <script type="text/javascript" src="js/payloadCalculator.js"></script> 
+</head>
+
+<body>
+ <header>
+   <img src="spaceBanner.jpg" alt="Space" />
+   <nav class="horizontalNav">
+     <ul>
+       <li><a href="home.html">HOME</a>
+         <ul class="dropdown">
+           <li><a href="#">Link_1</a></li>
+           <li><a href="#">Link_2</a></li>
+           <li><a href="#">Link_2</a></li>
+         </ul>
+       </li>
+       <li><a href="payloadCalculator.html">Payloads</a>
+       </li>
+       <li><a href="Page3.html">Page 3</a>
+         <ul class="dropdown">
+           <li><a href="#">Link_1</a></li>
+           <li><a href="#">Link_2</a></li>
+           <li><a href="#">Link_2</a></li>
+         </ul>
+       </li>
+       <li><a href="#">Page 4</a></li>
+       <li><a href="#">The Team</a>
+         <ul class="dropdown">
+           <li><a href="Jae.html">Jae</a></li>
+           <li><a href="Chris.html">Chris</a></li>
+         </ul>
+       </li>
+     </ul>
+   </nav>
+ </header>
+<article>
+<h2>How much stuff can you take on a SpaceX rocket?</h2>
+<h4>1. Select Rocket</h4>
+  <p>Select which rocket you will use</p>
+  <p class='calc_element'><select id="rocket" name="rocket_name">
+    <option value="falcon_9">Falcon 9"</option>
+    <option value="falcon_heavy">Falcon Heavy"</option>
+    <option value="big_fkin_rocket">BFR"</option>
+  </select></p>
+<h4>2. Select Goal</h4>
+  <p>Select your destination goal</p>
+  <p class='calc_element'><input id="low_earth_orbit" name="goal" type="radio" value="leo" /> <b>Low Earth Orbit</b>
+  <input id="to_mars" name="goal" type="radio" value="mars" /> <b>Mars</b></p>
+<h4>3. Hit the Button</h4>
+  <p>Calculate how much stuff you can take!</p>
+  <p class='calc_element'><button class="btn btn-default" type="submit" onclick="calcPayload()">Calculate Payload</button></p>
+<h2>Est. Payload (lbs.)</h2>
+  <p class='calc_element'><strong><input id="output" disabled="disabled" type="text" /></strong></p>
+<hr \>
+<h4>Sources</h4>
+<p>
+  <ul>
+    <li><a href="https://en.wikipedia.org/wiki/Falcon_9">Falcon 9 Payload Information</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Falcon_Heavy">Falcon Heavy Payload Information</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/BFR_(rocket)">BFR Payload Information</a></li>
+  </ul>
+</article>
+</body>
+<footer>
+</footer>
