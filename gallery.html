@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
  <meta charset="UTF-8">
- <title>TITLE</title>
+ <title>Rocket Gallery</title>
  <link href="reset.css" rel="stylesheet" type="text/css" />
  <link href="styles.css" rel="stylesheet" type="text/css" />
-  <link href="Profiles.css" rel="stylesheet" type="text/css" />
+ <link href="imageSwapperStyle.css" rel="stylesheet" type="text/css"/>
+ <script src="js/gallerySwapping.js"></script>
  <!--<script src="modernizer.custom.05819.js"></script>
  -->
 </head>
@@ -30,23 +31,19 @@
        </li>
      </ul>
    </nav>
-
  </header>
-
- <article class="MainContent">
-   <img src="Jae.jpg">
-   <h1>Jae Ellis</h1>
-   <br>
-   <p>Type stuff here. Im a sample para Graph!
-      Type stuff here. Im a sample para Graph!
-      Type stuff here. Im a sample para Graph!
-      Type stuff here. Im a sample para Graph!
-      Type stuff here. Im a sample para Graph!
-      Type stuff here. Im a sample para Graph!
-      Type stuff here. Im a sample para Graph!
-      Type stuff here. Im a sample para Graph!
-      Type stuff here. Im a sample para Graph!
-      Type stuff here. Im a sample para Graph!
-   </p>
+ <article>
+   <p>Check out this gallery of SpaceX rockets</p>
  </article>
- 
+ <div class="mainImg">
+      <img src="falcon9.jpg" id="bigImage" alt="main_image" />
+    </div>
+    <div id="thumbnailGallery">
+      <script>
+        createGallery(thumbnailGalleryArr);
+      </script>
+    </div>
+</body>
+
+<footer>
+</footer>

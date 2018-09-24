@@ -1,0 +1,15 @@
+/* 
+CIS131-W01-FA18
+CSS for Image Swapping Assignment
+Author: Chris Gillispie
+Date: 2016-09-21
+*/
+
+/*img {
+	margin: 10px;
+	border-radius: 20%;
+}*/
+
+.mainImg, #thumbnailGallery {
+	text-align: center;
+}
