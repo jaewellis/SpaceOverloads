@@ -23,14 +23,14 @@ a:hover {
 
 /* main page */
 
-body {
+/*body {
   background-image: url("background.jpg");
   box-shadow: rgba(8, 1, 1, 0.81) 10px 0px 30px,
   					  rgba(8, 1, 1, 0.81) -10px 0px 30px;
   margin: auto;
   width: 90%;
   height: 100%;
- }
+ }*/
 
  body header img {
   display: block;
